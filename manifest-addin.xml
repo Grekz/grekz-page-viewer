@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ContentApp">
   <Id>b5432745-b783-40ce-bcef-174641cd9186</Id>
   <Version>1.0.1</Version>
   <ProviderName>Grekz, Inc.</ProviderName>
@@ -10,7 +10,10 @@
     <AppDomain>https://grekz-page-viewer.deno.dev</AppDomain>
   </AppDomains>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://grekz-page-viewer.deno.dev/iframe?url=https://www.grekz.com/" />
+    <SourceLocation DefaultValue="https://grekz-page-viewer.deno.dev/iframe" />
+    <RequestedWidth>800</RequestedWidth> 
+    <RequestedHeight>600</RequestedHeight>
   </DefaultSettings>
+  <AllowSnapshot>true</AllowSnapshot>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>

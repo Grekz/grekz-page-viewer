@@ -19,13 +19,15 @@ export default function IframeViewer(
   return (
     <div class="flex flex-col flex-1">
       {!iframeUrl && <h1>Page viewer</h1>}
-      {iframeUrl && (
-        <iframe
-          src={iframeUrl}
-          title="Embedded content"
-          class="flex-1"
-        />
-      )}
+      {iframeUrl
+        ? (
+          <iframe
+            src={iframeUrl}
+            title="Embedded content"
+            class="flex-1"
+          />
+        )
+        : <span>You can type the selected page below</span>}
       <form onSubmit={handleSubmit} class="flex form">
         <input
           type="url"
@@ -34,6 +36,7 @@ export default function IframeViewer(
           placeholder="Enter URL to display"
           required
           class="flex-1"
+          autofocus
         />
         <Button type="submit">
           Load
