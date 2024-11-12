@@ -10,7 +10,7 @@
     <AppDomain>https://grekz-page-viewer.deno.dev</AppDomain>
   </AppDomains>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://grekz-page-viewer.deno.dev/iframe" />
+    <SourceLocation DefaultValue="https://grekz-page-viewer.deno.dev" />
     <RequestedWidth>800</RequestedWidth> 
     <RequestedHeight>600</RequestedHeight>
   </DefaultSettings>
