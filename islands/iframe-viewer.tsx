@@ -6,8 +6,7 @@ interface IframeViewerProps {
 }
 
 export default function IframeViewer(
-  { initialUrl = "https://www.gartner.com/peer-community/home" }:
-    IframeViewerProps,
+  { initialUrl = "https://www.grekz.com" }: IframeViewerProps,
 ) {
   const [inputUrl, setInputUrl] = useState(initialUrl);
   const [iframeUrl, setIframeUrl] = useState(initialUrl);
