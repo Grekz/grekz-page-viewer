@@ -4,13 +4,13 @@
   <Version>1.0.1</Version>
   <ProviderName>Grekz, Inc.</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Northwind Traders Excel" />
-  <Description DefaultValue="Search Northwind Traders data from Excel"/>
+  <DisplayName DefaultValue="Grekz Page viewer" />
+  <Description DefaultValue="A page viewer available to render web pages in office powerpoint"/>
   <AppDomains>
-    <AppDomain>https://www.northwindtraders.com</AppDomain>
+    <AppDomain>https://grekz-page-viewer.deno.dev</AppDomain>
   </AppDomains>
   <DefaultSettings>
-    <SourceLocation DefaultValue="http://localhost:8000/iframe?url=https://www.grekz.com/" />
+    <SourceLocation DefaultValue="https://grekz-page-viewer.deno.dev/iframe?url=https://www.grekz.com/" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
